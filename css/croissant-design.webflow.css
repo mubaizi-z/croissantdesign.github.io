@@ -517,6 +517,7 @@ a {
 }
 
 .split-left.page-contact {
+  max-width: 80%;
   margin-bottom: 10vh;
 }
 
@@ -1332,7 +1333,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 90;
+  z-index: 50;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
@@ -1346,6 +1347,7 @@ a {
 }
 
 ._1-container {
+  z-index: 40;
   overflow: hidden;
   max-width: 100vw;
 }
@@ -1713,6 +1715,68 @@ a {
   margin-bottom: 2vh;
 }
 
+.text-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+
+.x {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 3px;
+}
+
+.dont-share {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .hero-bg-img-wrapper {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent)), url('../images/21-NEW-wangye.png');
@@ -1851,6 +1915,19 @@ a {
   .enter---readmore {
     margin-left: 35px;
     padding-left: 5%;
+  }
+
+  .x {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 0.5em;
+    line-height: 1em;
   }
 }
 
@@ -2079,6 +2156,12 @@ a {
     margin-left: 25px;
     padding-left: 3%;
   }
+
+  .x {
+    margin-bottom: 25px;
+    font-size: 1em;
+    line-height: 1.6em;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2244,6 +2327,10 @@ a {
     padding-right: 25px;
     padding-left: 25px;
     background-position: 10vw 0%;
+  }
+
+  .dont-share {
+    margin-top: 50px;
   }
 }
 
