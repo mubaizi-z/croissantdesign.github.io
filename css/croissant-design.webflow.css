@@ -982,6 +982,25 @@ a {
   background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0.81), hsla(0, 0%, 100%, 0) 53%), linear-gradient(0deg, rgba(255, 206, 27, 0.68), transparent);
 }
 
+.product-div.pr {
+  height: 10em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(hsla(0, 0%, 100%, 0.81)), to(hsla(0, 0%, 100%, 0)));
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0.81), hsla(0, 0%, 100%, 0));
+}
+
+.product-div.pp-01:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(hsla(0, 0%, 100%, 0.81)), color-stop(53%, hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, left bottom, left top, from(#b5deb8), to(transparent));
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0.81), hsla(0, 0%, 100%, 0) 53%), linear-gradient(0deg, #b5deb8, transparent);
+}
+
 .utility-page-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1351,6 +1370,38 @@ a {
 }
 
 .p-1200.p-13.hover:hover {
+  opacity: 1;
+}
+
+.p-1200.pp-01:hover {
+  opacity: 0;
+}
+
+.p-1200.pp-01.hover {
+  z-index: 11;
+  background-image: url('../images/titlepic-color.png');
+  opacity: 0;
+}
+
+.p-1200.pp-01.hover:hover {
+  opacity: 1;
+}
+
+.p-1200.pp-01 {
+  background-image: url('../images/titlepic-bw.png');
+}
+
+.p-1200.pp-01:hover {
+  opacity: 0;
+}
+
+.p-1200.pp-01.hover {
+  z-index: 11;
+  background-image: url('../images/titlepic-color.png');
+  opacity: 0;
+}
+
+.p-1200.pp-01.hover:hover {
   opacity: 1;
 }
 
@@ -1809,6 +1860,22 @@ a {
   margin-bottom: 1em;
 }
 
+.personal-project {
+  font-family: Oswald, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.pp01-detail {
+  position: relative;
+  z-index: 30;
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 991px) {
   .hero-bg-img-wrapper {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent)), url('../images/21-NEW-wangye.png');
@@ -2125,6 +2192,10 @@ a {
 
   .section-1 {
     height: 15em;
+  }
+
+  .section-1.pr {
+    height: auto;
   }
 
   .heading-2 {
@@ -2525,6 +2596,18 @@ a {
 }
 
 #w-node-_1f744f09-1322-1bd0-5e65-2979d62ab95b-dae08942 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_193a6577-3ef3-cd48-3099-401669f25419-dae08942 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_193a6577-3ef3-cd48-3099-401669f2541c-dae08942 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
