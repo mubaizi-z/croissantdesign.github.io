@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T08:54:42.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="F7S_uImCN4DQMyYKpIZq" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T09:02:52.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="unWwSS1X6y1HezenWm_O" version="22.1.1" type="github">
   <diagram name="第 1 页" id="8h3FERvoa2eE-XkhtEgx">
     <mxGraphModel dx="1971" dy="2598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,8 +127,20 @@
         <mxCell id="ua6F7jF0ILNsV92IlKWl-51" value="Benks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ua6F7jF0ILNsV92IlKWl-53">
           <mxGeometry y="90.00010830324914" width="51.48936170212766" height="17.593261131167267" as="geometry" />
         </mxCell>
-        <mxCell id="ua6F7jF0ILNsV92IlKWl-52" value="￥169.0&lt;br&gt;普通无线&lt;br&gt;塑料外壳&lt;br&gt;金属支架&lt;br&gt;编织线" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" vertex="1" parent="ua6F7jF0ILNsV92IlKWl-53">
+        <mxCell id="ua6F7jF0ILNsV92IlKWl-52" value="￥169.0&lt;br&gt;普通无线&lt;br&gt;喷漆 塑料外壳&lt;br&gt;金属支架&lt;br&gt;编织线" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" vertex="1" parent="ua6F7jF0ILNsV92IlKWl-53">
           <mxGeometry y="107.59336943441645" width="120.75971631205674" height="8.796630565583634" as="geometry" />
+        </mxCell>
+        <mxCell id="ua6F7jF0ILNsV92IlKWl-54" value="MFM模块、一些相对于Apple的小体验改进" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-800" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ua6F7jF0ILNsV92IlKWl-55" value="Apple标准分界线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-690" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ua6F7jF0ILNsV92IlKWl-56" value="Qi1功率、小改进" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-424.53" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ua6F7jF0ILNsV92IlKWl-57" value="Qi1、无特色表现" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-220" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
